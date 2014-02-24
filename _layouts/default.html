@@ -1,10 +1,12 @@
 <html>
   <head>
     <title>{{page.title}}</title>
+    <link href='/css/site.css' rel='stylesheet'></link>
   </head>
 
   <body>
-    <h1>Hello</h1>
+    {% include nav.html %}
+
     {{content}}
    </body>
 </html>
