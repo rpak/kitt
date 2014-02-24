@@ -25,5 +25,8 @@ Create GitHub Project Pages [manually](https://help.github.com/articles/creating
 5. Within about ten minutes your page should be accessible at http://```$organization_name```.github.io/```$repository_name```
 
 
+## Development
+1. Follow the instructions on [using Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages)
+
 ## Additional Information
 1. [Nicole Sullivan's Object Oriented CSS](https://www.google.com/search?q=stubbornella+oocss)
