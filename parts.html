@@ -1,0 +1,12 @@
+---
+layout: default
+title: Kit of Parts
+---
+
+<ul>
+  {% for part in site.data.parts %}
+    <li>
+      <a href='/parts/{{part.name}}.html'>{{part.name}}</a>
+    </li>
+  {% endfor %}
+</ul>
