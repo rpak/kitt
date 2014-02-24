@@ -25,5 +25,9 @@ Create GitHub Project Pages [manually](https://help.github.com/articles/creating
 5. Within about ten minutes your page should be accessible at http://```$organization_name```.github.io/```$repository_name```
 
 
+## Development
+1. Follow the instructions on [using Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages)
+2. Ensure Jekyll is started in 'watch' mode: ```bundle exec jekyll serve --watch```. Doing so will allow Jekyll to automatically create updated files as you change them resulting in faster development cycles.
+
 ## Additional Information
 1. [Nicole Sullivan's Object Oriented CSS](https://www.google.com/search?q=stubbornella+oocss)
