@@ -1,1 +1,4 @@
-- name: Button
+- name: 'Toolbar'
+  subparts:
+    - name: 'Button'
+

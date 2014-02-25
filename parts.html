@@ -7,6 +7,9 @@ title: Kit of Parts
   {% for part in site.data.parts %}
     <li>
       <a href='/parts/{{part.name}}.html'>{{part.name}}</a>
+        {% for subpart in part.subparts %}
+          <a href='/parts/{{subpart.name}}.html'>{{subpart.name}}</a>
+        {% endfor %}
     </li>
   {% endfor %}
 </ul>
